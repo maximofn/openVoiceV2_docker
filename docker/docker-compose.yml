@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  open_voice_v2:
+    container_name: open_voice_v2
+    image: maximofn/open_voice_v2:1.0.1
+    build: .
+    runtime: nvidia
+    network_mode: "host"
+    # volumes:
+    #   - ./tts:/root/.local/share/tts
+    tty: true
+    stdin_open: true
