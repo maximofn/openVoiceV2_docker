@@ -17,7 +17,7 @@ Dockerization of the [Hugging Face OpenVoiceV2 Space](https://huggingface.co/spa
 You can download the image and run it
 
 ```bash
-docker pull maximofn/open_voice_v2:latest
+docker pull maximofn/open_voice_v2:1.0.1
 ./run_app.sh
 ```
 
